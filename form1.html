@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form1</title>
+</head>
+<body> 
+    <form>
+<table >
+    <tr>
+   <td> <label for="name">name:</label></td>
+   <td><input type="text" name="name" placeholder="enter your name" required> </td>
+    </tr>
+<tr><td><label for="age">age:</label> </td>
+<td><input type="number" name="age" placeholder="enter your age" required> </td></tr>
+<tr><td><label for="mobile">mobile no:</label></td>
+<td><input type="tel" name="mobile" placeholder="enter your mobile number" required> </td></tr>
+<tr><td><label for="mail">Email ID:</label></td>
+<td><input type="email" name="mail" placeholder="enter your Email ID" required ></td></tr>
+
+<tr>
+<td><label for="gen">gender:</label></td>
+<td><label for="gen">male</label>
+ <input type="radio" name="gen" id="genm" value="male">
+<label for="gender">female</label>
+<input type="radio" name="gen"></td>
+</tr>
+
+
+   <tr> 
+    <td><label for="lang">languages known:</label> </td>
+    <td><label for="lang">english</label>
+    <input type="checkbox" name="lang" value="eng">
+    <label for="lang">tamil</label>
+    <input type="checkbox" name="lang" value="tam">
+    <label for="lang">hindi</label>
+    <input type="checkbox" name="lang" value="hin">
+    <label for="lang">telugu</label>
+    <input type="checkbox" name="lang" value="telu"></td>
+   </tr>  
+
+   <tr>
+   <td> <label for="country">country:</label> </td>
+<td>  <select name="country" id="cn">
+        <option value="in">india</option>
+        <option value="af">africa</option>
+        <option value="us">USA</option>
+        <option value="ne">nepal</option>
+        <option value="pak">pakistan</option>
+    </select> </td>
+</tr>
+
+<tr>
+    <td>
+        <label for="cmn">comments:</label>
+    </td>
+    <td>
+        <textarea name="cmn" cols="15" rows="2">comments</textarea>
+    </td>
+</tr>
+
+
+<tr>
+    <td>
+        <label for="pass">password:</label>
+    </td>
+    <td>
+        <input type="password" pattern="{5-8} [a-z A-Z]" title=hai>
+    </td>
+</tr>
+
+<tr>
+    <td> <input type="submit" autofocus></td>
+</tr>
+
+    </table>
+
+    </form>
+</body>
+</html>
